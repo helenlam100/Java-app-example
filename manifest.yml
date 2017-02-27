@@ -1,0 +1,10 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Java-app-example
+  host: java-app-example
+  disk_quota: 1024M
+  services:
+  - Language Translation-wc
